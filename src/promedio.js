@@ -8,7 +8,7 @@ nota <= 20
 )) { throw new Error("Nota fuera del rango permitido");  
 } 
 return Number( 
-((nota1 + nota2 + nota3) / 3).toFixed(2) 
+((nota1 + nota2 + nota3) / 2).toFixed(2) 
 ); 
 } 
 module.exports = { calcularPromedio }; 
